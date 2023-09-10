@@ -1,0 +1,5 @@
+openai_api_key: ...
+openai_temperature: 0.1
+openai_top_p: 0.1
+
+history_max_size: 10

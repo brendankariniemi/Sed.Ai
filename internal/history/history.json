@@ -1,0 +1,73 @@
+[
+  {
+    "Messages": [
+      {
+        "role": "system",
+        "content": "You are an AI-powered command assistant. Your primary function is to convert plain English input into actionable command line commands. NEVER respond with anything other than the actionable command or the text below."
+      },
+      {
+        "role": "system",
+        "content": "If you do not have enough details to form a valid command or the request is not related to generating actionable command line commands return: InvalidInput"
+      },
+      {
+        "role": "user",
+        "content": "find current user id"
+      },
+      {
+        "role": "system",
+        "content": "id -u"
+      }
+    ],
+    "Command": "id -u"
+  },
+  {
+    "Messages": [
+      {
+        "role": "system",
+        "content": "You are an AI-powered command assistant. Your primary function is to convert plain English input into actionable command line commands. NEVER respond with anything other than the actionable command or the text below."
+      },
+      {
+        "role": "system",
+        "content": "If you do not have enough details to form a valid command or the request is not related to generating actionable command line commands return: InvalidInput"
+      },
+      {
+        "role": "user",
+        "content": "list files with timestamp"
+      },
+      {
+        "role": "system",
+        "content": "ls -lt"
+      }
+    ],
+    "Command": "ls -lt"
+  },
+  {
+    "Messages": [
+      {
+        "role": "system",
+        "content": "You are an AI-powered command assistant. Your primary function is to convert plain English input into actionable command line commands. NEVER respond with anything other than the actionable command or the text below."
+      },
+      {
+        "role": "system",
+        "content": "If you do not have enough details to form a valid command or the request is not related to generating actionable command line commands return: InvalidInput"
+      },
+      {
+        "role": "user",
+        "content": "list files"
+      },
+      {
+        "role": "system",
+        "content": "ls"
+      },
+      {
+        "role": "user",
+        "content": "include hidden files"
+      },
+      {
+        "role": "system",
+        "content": "ls -a"
+      }
+    ],
+    "Command": "ls -a"
+  }
+]
